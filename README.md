@@ -8,8 +8,4 @@ A API for university works. Developed to register franchised restaurants, being 
 ```sh
 git clone https://github.com/LucasFernandes0101/nectronalds-api.git
 ```
-2. Run the project
-```sh
-dotnet run
-
-```
+2. Run with IIS Express
