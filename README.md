@@ -1,6 +1,6 @@
 ## About The Project 📝
 
-A API for university works. Developed to register franchised restaurants, being able to link snacks to them, allowing the generation of menus for registered restaurants through requisitions
+A API for university works. Developed to register franchised restaurants, being able to link snacks to them, allowing the generation of menus for registered restaurants through requisitions.
 
 ## Installation 🛠️
 
