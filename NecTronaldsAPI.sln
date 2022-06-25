@@ -11,17 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{513466E5-7CFD-43F9-95C6-9FDF26EAEEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecTronaldsAPI.API", "NecTronaldsAPI.API\NecTronaldsAPI.API.csproj", "{180C473F-F658-49CA-B731-B175A9A56183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NecTronaldsAPI.API", "NecTronaldsAPI.API\NecTronaldsAPI.API.csproj", "{180C473F-F658-49CA-B731-B175A9A56183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecTronaldsAPI.Application", "NecTronaldsAPI.Application\NecTronaldsAPI.Application.csproj", "{4E2A8144-A815-412D-86CC-ACC9ED76A413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NecTronaldsAPI.Application", "NecTronaldsAPI.Application\NecTronaldsAPI.Application.csproj", "{4E2A8144-A815-412D-86CC-ACC9ED76A413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecTronaldsAPI.Domain", "NecTronaldsAPI.Domain\NecTronaldsAPI.Domain.csproj", "{7038D894-95F6-4A04-A25A-08CB6A31B0FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NecTronaldsAPI.Domain", "NecTronaldsAPI.Domain\NecTronaldsAPI.Domain.csproj", "{7038D894-95F6-4A04-A25A-08CB6A31B0FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecTronaldsAPI.Domain.Core", "NecTronaldsAPI.Domain.Core\NecTronaldsAPI.Domain.Core.csproj", "{2D789226-B654-4AE0-AB25-A926B30951B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NecTronaldsAPI.Domain.Core", "NecTronaldsAPI.Domain.Core\NecTronaldsAPI.Domain.Core.csproj", "{2D789226-B654-4AE0-AB25-A926B30951B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecTronaldsAPI.Domain.Services", "NecTronaldsAPI.Domain.Services\NecTronaldsAPI.Domain.Services.csproj", "{E3786B56-1A55-4509-AE13-4BD6E696AB1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NecTronaldsAPI.Domain.Services", "NecTronaldsAPI.Domain.Services\NecTronaldsAPI.Domain.Services.csproj", "{E3786B56-1A55-4509-AE13-4BD6E696AB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecTronaldsAPI.Infrastructure", "NecTronaldsAPI.Infrastructure\NecTronaldsAPI.Infrastructure.csproj", "{1EB23EA4-FDF1-49F2-A749-85794B63E949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NecTronaldsAPI.Infrastructure", "NecTronaldsAPI.Infrastructure\NecTronaldsAPI.Infrastructure.csproj", "{1EB23EA4-FDF1-49F2-A749-85794B63E949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{65FD6843-BFC0-4E2D-9725-BE5630A0C9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nectronalds.Tests", "Nectronalds.Tests\Nectronalds.Tests.csproj", "{450EFE0B-4DD4-42E2-983B-F7A3D3AC0B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{1EB23EA4-FDF1-49F2-A749-85794B63E949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB23EA4-FDF1-49F2-A749-85794B63E949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB23EA4-FDF1-49F2-A749-85794B63E949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450EFE0B-4DD4-42E2-983B-F7A3D3AC0B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450EFE0B-4DD4-42E2-983B-F7A3D3AC0B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450EFE0B-4DD4-42E2-983B-F7A3D3AC0B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450EFE0B-4DD4-42E2-983B-F7A3D3AC0B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{2D789226-B654-4AE0-AB25-A926B30951B2} = {E8F87BCB-2C69-4DFA-836A-02453B45BE66}
 		{E3786B56-1A55-4509-AE13-4BD6E696AB1C} = {E8F87BCB-2C69-4DFA-836A-02453B45BE66}
 		{1EB23EA4-FDF1-49F2-A749-85794B63E949} = {513466E5-7CFD-43F9-95C6-9FDF26EAEEF8}
+		{450EFE0B-4DD4-42E2-983B-F7A3D3AC0B3D} = {65FD6843-BFC0-4E2D-9725-BE5630A0C9E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6065DD22-F3A6-48C1-B462-E233F3D136CF}
