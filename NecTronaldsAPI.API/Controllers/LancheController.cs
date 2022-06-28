@@ -89,5 +89,23 @@ namespace NecTronaldsAPI.API.Controllers
 
             return Ok(response);
         }
+
+        [HttpDelete]
+        public IActionResult Delete([FromBody] LancheDto lancheDto)
+        {
+            var response = new HttpResponse() { Success = false };
+            try
+            {
+                _applicationServiceLanche.Delete(lancheDto);
+                response.Message = "Lanche removido com sucesso!";
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+            }
+
+            return Ok(response);
+        }
     }
 }

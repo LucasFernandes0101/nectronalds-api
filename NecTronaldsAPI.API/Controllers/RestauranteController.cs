@@ -126,5 +126,23 @@ namespace NecTronaldsAPI.API.Controllers
 
             return Ok(response);
         }
+
+        [HttpDelete]
+        public IActionResult Delete([FromBody] RestauranteDto restauranteDto)
+        {
+            var response = new HttpResponse() { Success = false };
+            try
+            {
+                _applicationServiceRestaurante.Delete(restauranteDto);
+                response.Message = "Restaurante removido com sucesso!";
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.Message;
+            }
+
+            return Ok(response);
+        }
     }
 }
